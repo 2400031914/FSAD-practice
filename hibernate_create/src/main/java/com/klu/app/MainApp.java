@@ -19,7 +19,7 @@ public class MainApp {
 		int choice;
 		do {
 			System.out.println("\n========= EMPLOYEE MENU ===========");
-			System.out.println("1. Insert Employee");
+			System.out.println("1. Insert Employee");//choosing the options
 			System.out.println("2. View Employee");
 			System.out.println("3. Update Employee Salary");
 			System.out.println("4. Delete Employee");
@@ -43,7 +43,7 @@ public class MainApp {
 
 	}
 	
-	// ----INSERT------
+	// ----INSERT----------
 	private static void insertEmployee(Scanner sc) {
 		Session session = factory.openSession();
 		Transaction tx = session.beginTransaction();

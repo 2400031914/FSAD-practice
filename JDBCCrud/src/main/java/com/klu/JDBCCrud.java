@@ -26,7 +26,7 @@ public class JDBCCrud {
             System.out.println("6. Exit");
             System.out.print("Enter choice: ");
             choice = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); // consume newlines
 
             switch (choice) {
                 case 1:
@@ -193,7 +193,7 @@ public class JDBCCrud {
 
             System.out.print("Enter Emp ID to delete: ");
             int empId = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); // consume newlines
             ps.setInt(1, empId);
 
             int rows = ps.executeUpdate();

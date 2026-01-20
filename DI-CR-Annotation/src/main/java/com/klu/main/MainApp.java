@@ -13,7 +13,7 @@ public class MainApp {
     ApplicationContext context=new AnnotationConfigApplicationContext(AppConfig.class);
     CourseRegistration cr=context.getBean(CourseRegistration.class);
     cr.display();
-
+//DI-Cr
   }
 //mainapp
 }
